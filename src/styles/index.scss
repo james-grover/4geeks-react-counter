@@ -1,0 +1,33 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+
+.totalcounter{
+    text-align: center;
+    background: black;
+}
+
+.totalcounter div {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    
+    color: white;
+    padding: 10px;
+}
+
+.totalcounter i {
+    width: 63px;
+    height: 48px;
+    padding-right: 15px;
+}
